@@ -57,7 +57,8 @@ namespace KurgasovLabs
 
         private void button20_Click(object sender, EventArgs e)
         {
-
+            var frameworkMath = new FrameworkMath();
+            frameworkMath.ShowDialog();
         }
 
         private void button21_Click(object sender, EventArgs e)
