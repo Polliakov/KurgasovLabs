@@ -154,5 +154,15 @@ namespace KurgasovLabs
         {
 
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
