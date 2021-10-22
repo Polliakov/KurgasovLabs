@@ -82,6 +82,12 @@
     <Compile Include="Interaction\InputBox.Designer.cs">
       <DependentUpon>InputBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab3\FrameworkMath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3\FrameworkMath.Designer.cs">
+      <DependentUpon>FrameworkMath.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab3\MyInputBox.cs">
       <SubType>Form</SubType>
     </Compile>
