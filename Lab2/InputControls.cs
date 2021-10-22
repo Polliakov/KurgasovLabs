@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace KurgasovLabs.Lab2
 {
-    public partial class Sells : Form
+    public partial class InputControls : Form
     {
-        public Sells()
+        public InputControls()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿
 namespace KurgasovLabs.Lab2
 {
-    partial class Sells
+    partial class InputControls
     {
         /// <summary>
         /// Required designer variable.
@@ -250,7 +250,7 @@ namespace KurgasovLabs.Lab2
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Sells
+            // InputControls
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -267,8 +267,8 @@ namespace KurgasovLabs.Lab2
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Sells";
-            this.Text = "Sells";
+            this.Name = "InputControls";
+            this.Text = "InputControls";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

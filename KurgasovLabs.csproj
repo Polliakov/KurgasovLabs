@@ -58,11 +58,11 @@
     <Compile Include="Lab2\HelloWorld.Designer.cs">
       <DependentUpon>HelloWorld.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lab2\Sells.cs">
+    <Compile Include="Lab2\InputControls.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lab2\Sells.Designer.cs">
-      <DependentUpon>Sells.cs</DependentUpon>
+    <Compile Include="Lab2\InputControls.Designer.cs">
+      <DependentUpon>InputControls.cs</DependentUpon>
     </Compile>
     <Compile Include="Lab3\BasicMath.cs">
       <SubType>Form</SubType>
@@ -108,8 +108,8 @@
     <EmbeddedResource Include="Lab2\HelloWorld.resx">
       <DependentUpon>HelloWorld.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lab2\Sells.resx">
-      <DependentUpon>Sells.cs</DependentUpon>
+    <EmbeddedResource Include="Lab2\InputControls.resx">
+      <DependentUpon>InputControls.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab3\BasicMath.resx">
       <DependentUpon>BasicMath.cs</DependentUpon>
