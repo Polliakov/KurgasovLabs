@@ -64,11 +64,35 @@
     <Compile Include="Lab2\InputControls.Designer.cs">
       <DependentUpon>InputControls.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab3\Addition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3\Addition.Designer.cs">
+      <DependentUpon>Addition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab3\Addition11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3\Addition11.Designer.cs">
+      <DependentUpon>Addition11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab3\Addition7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3\Addition7.Designer.cs">
+      <DependentUpon>Addition7.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab3\BasicMath.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Lab3\BasicMath.Designer.cs">
       <DependentUpon>BasicMath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab3\CylinderVolume.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3\CylinderVolume.Designer.cs">
+      <DependentUpon>CylinderVolume.cs</DependentUpon>
     </Compile>
     <Compile Include="Lab3\DataTypes.cs">
       <SubType>Form</SubType>
@@ -88,17 +112,143 @@
     <Compile Include="Lab3\FrameworkMath.Designer.cs">
       <DependentUpon>FrameworkMath.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab3\MathExpressions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3\MathExpressions.Designer.cs">
+      <DependentUpon>MathExpressions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab3\MyInputBox.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Lab3\MyInputBox.Designer.cs">
       <DependentUpon>MyInputBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab3\NumberPI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3\NumberPI.Designer.cs">
+      <DependentUpon>NumberPI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab3\VariableTest.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Lab3\VariableTest.Designer.cs">
       <DependentUpon>VariableTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab4\AccesModeChecker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab4\AccesModeChecker.Designer.cs">
+      <DependentUpon>AccesModeChecker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab4\CaseGreeting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab4\CaseGreeting.Designer.cs">
+      <DependentUpon>CaseGreeting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab4\UserValidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab4\UserValidation.Designer.cs">
+      <DependentUpon>UserValidation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab4\UsingExample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab4\UsingExample.Designer.cs">
+      <DependentUpon>UsingExample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab4\UsingExample1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab4\UsingExample1.Designer.cs">
+      <DependentUpon>UsingExample1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab4\UsingExample7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab4\UsingExample7.Designer.cs">
+      <DependentUpon>UsingExample7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab5\Addition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab5\Addition.Designer.cs">
+      <DependentUpon>Addition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab5\Addition11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab5\Addition11.Designer.cs">
+      <DependentUpon>Addition11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab5\Addition7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab5\Addition7.Designer.cs">
+      <DependentUpon>Addition7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab5\DepositPercent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab5\DepositPercent.Designer.cs">
+      <DependentUpon>DepositPercent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab5\DigitalClock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab5\DigitalClock.Designer.cs">
+      <DependentUpon>DigitalClock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab5\ForLoop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab5\ForLoop.Designer.cs">
+      <DependentUpon>ForLoop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab5\ForLoopIcons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab5\ForLoopIcons.Designer.cs">
+      <DependentUpon>ForLoopIcons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab5\ForLoopSummation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab5\ForLoopSummation.Designer.cs">
+      <DependentUpon>ForLoopSummation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab5\Pension.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab5\Pension.Designer.cs">
+      <DependentUpon>Pension.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab5\TimedPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab5\TimedPassword.Designer.cs">
+      <DependentUpon>TimedPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab6\ClockMenuStrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab6\ClockMenuStrip.Designer.cs">
+      <DependentUpon>ClockMenuStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab6\MyMenuStrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab6\MyMenuStrip.Designer.cs">
+      <DependentUpon>MyMenuStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab7\DebugTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab7\DebugTest.Designer.cs">
+      <DependentUpon>DebugTest.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
