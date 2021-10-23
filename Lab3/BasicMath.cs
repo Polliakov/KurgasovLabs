@@ -12,11 +12,11 @@ namespace KurgasovLabs.Lab3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(textBox1.Text) ||
-                string.IsNullOrWhiteSpace(textBox2.Text)) return;
-
-            double leftOperand = Convert.ToDouble(textBox1.Text);
-            double rightOperand = Convert.ToDouble(textBox2.Text);
+            if (!double.TryParse(textBox1.Text, out double leftOperand) |
+                !double.TryParse(textBox2.Text, out double rightOperand))
+            {
+                MessageBox.Show("Ошибка ввода!");
+            }
             double result = 0;
 
             if (radioButton1.Checked)

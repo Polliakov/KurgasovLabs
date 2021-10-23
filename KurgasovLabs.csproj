@@ -273,8 +273,14 @@
     <EmbeddedResource Include="Lab3\DataTypes.resx">
       <DependentUpon>DataTypes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab3\MathExpressions.resx">
+      <DependentUpon>MathExpressions.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab3\MyInputBox.resx">
       <DependentUpon>MyInputBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab3\NumberPI.resx">
+      <DependentUpon>NumberPI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab3\VariableTest.resx">
       <DependentUpon>VariableTest.cs</DependentUpon>
