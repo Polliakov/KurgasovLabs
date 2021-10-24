@@ -267,6 +267,9 @@
     <EmbeddedResource Include="Lab2\InputControls.resx">
       <DependentUpon>InputControls.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab3\Addition.resx">
+      <DependentUpon>Addition.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab3\BasicMath.resx">
       <DependentUpon>BasicMath.cs</DependentUpon>
     </EmbeddedResource>

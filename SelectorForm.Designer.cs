@@ -182,7 +182,7 @@ namespace KurgasovLabs
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(58, 23);
             this.button31.TabIndex = 11;
-            this.button31.Text = "Add_?";
+            this.button31.Text = "Add_8";
             this.button31.UseVisualStyleBackColor = false;
             this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
@@ -365,7 +365,7 @@ namespace KurgasovLabs
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(184, 23);
             this.button26.TabIndex = 6;
-            this.button26.Text = "UsingExample_?";
+            this.button26.Text = "UsingExample_8";
             this.button26.UseVisualStyleBackColor = false;
             this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
@@ -482,7 +482,7 @@ namespace KurgasovLabs
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(184, 23);
             this.button33.TabIndex = 10;
-            this.button33.Text = "Addition_?";
+            this.button33.Text = "Addition_8";
             this.button33.UseVisualStyleBackColor = false;
             this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
