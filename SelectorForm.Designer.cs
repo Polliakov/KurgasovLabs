@@ -68,14 +68,12 @@ namespace KurgasovLabs
             this.label4 = new System.Windows.Forms.Label();
             this.button12 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button34 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.button18 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -629,8 +627,6 @@ namespace KurgasovLabs
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
-            this.panel5.Controls.Add(this.button35);
-            this.panel5.Controls.Add(this.button34);
             this.panel5.Controls.Add(this.button14);
             this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.button15);
@@ -640,19 +636,6 @@ namespace KurgasovLabs
             this.panel5.Padding = new System.Windows.Forms.Padding(10);
             this.panel5.Size = new System.Drawing.Size(210, 326);
             this.panel5.TabIndex = 5;
-            // 
-            // button34
-            // 
-            this.button34.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button34.BackColor = System.Drawing.SystemColors.Control;
-            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button34.Location = new System.Drawing.Point(13, 96);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(184, 23);
-            this.button34.TabIndex = 3;
-            this.button34.Text = "da";
-            this.button34.UseVisualStyleBackColor = false;
             // 
             // button14
             // 
@@ -732,19 +715,6 @@ namespace KurgasovLabs
             this.button18.UseVisualStyleBackColor = false;
             this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
-            // button35
-            // 
-            this.button35.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button35.BackColor = System.Drawing.SystemColors.Control;
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button35.Location = new System.Drawing.Point(13, 125);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(184, 23);
-            this.button35.TabIndex = 4;
-            this.button35.Text = "da";
-            this.button35.UseVisualStyleBackColor = false;
-            // 
             // SelectorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -815,7 +785,5 @@ namespace KurgasovLabs
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button33;
         private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button35;
     }
 }
