@@ -5,13 +5,18 @@ namespace KurgasovLabs.Interaction
 {
     public partial class InputBox : Form
     {
-        public string Result { get; set; }
+        public string Result { get; private set; }
 
-        public InputBox(string label)
+        public InputBox(string text)
         {
             InitializeComponent();
 
-            label1.Text = label;
+            label1.Text = text;
+        }
+
+        public InputBox(string text, string caption) : this(text)
+        {
+            Text = caption;
         }
 
         private void okButton_Click(object sender, EventArgs e)

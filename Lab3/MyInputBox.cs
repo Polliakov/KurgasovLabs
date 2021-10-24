@@ -19,5 +19,10 @@ namespace KurgasovLabs.Lab3
                 textBox1.Text = inputBox.Result;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

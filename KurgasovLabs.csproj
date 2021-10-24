@@ -270,6 +270,9 @@
     <EmbeddedResource Include="Lab3\BasicMath.resx">
       <DependentUpon>BasicMath.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab3\CylinderVolume.resx">
+      <DependentUpon>CylinderVolume.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab3\DataTypes.resx">
       <DependentUpon>DataTypes.cs</DependentUpon>
     </EmbeddedResource>
