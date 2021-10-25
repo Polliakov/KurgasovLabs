@@ -16,5 +16,19 @@ namespace KurgasovLabs.Lab3
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double x = Convert.ToInt32(textBox1.Text);
+            double result = Math.Pow(x, 2);
+            string result_str = Convert.ToString(result);
+            MessageBox.Show(result_str, "Результат");
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

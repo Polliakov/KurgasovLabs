@@ -279,6 +279,9 @@
     <EmbeddedResource Include="Lab3\DataTypes.resx">
       <DependentUpon>DataTypes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab3\FrameworkMath.resx">
+      <DependentUpon>FrameworkMath.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab3\MathExpressions.resx">
       <DependentUpon>MathExpressions.cs</DependentUpon>
     </EmbeddedResource>
