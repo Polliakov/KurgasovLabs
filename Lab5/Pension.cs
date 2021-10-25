@@ -21,11 +21,19 @@ namespace KurgasovLabs.Lab5
                 return;
             }
 
+            if (startAge < 0 || endAge < 0 || contribution < 0 || rate < 0)
+            {
+                MessageBox.Show("Значения не могут быть меньше нуля!");
+                return;
+            }
+
             textBox5.Text = "Возраст  Сумма вложений, Р  Сумма на счёте, Р  Прибыль, Р" +
-                              Environment.NewLine;
+                             Environment.NewLine;
 
             decimal contributionSum = 0;
-            decimal depositSum = 0;
+            decimal depositSum;
+            // Округление в меньшую сторону до 2 знаков после запятой.
+            contribution -= contribution % 0.01M;
             for (int age = startAge; age <= endAge; age++)
             {
                 contributionSum += contribution;
@@ -34,7 +42,7 @@ namespace KurgasovLabs.Lab5
 
                 textBox5.Text += string.Format("{0,-9}{1,-19}{2,-19}{3,-10}" + 
                     Environment.NewLine,
-                    age, contributionSum, depositSum, profit);
+                    age, contributionSum, Math.Round(depositSum, 2), Math.Round(profit, 2));
             }
         }
     }

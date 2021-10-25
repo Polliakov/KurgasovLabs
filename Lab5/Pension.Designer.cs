@@ -113,6 +113,7 @@ namespace KurgasovLabs.Lab5
             this.textBox5.Location = new System.Drawing.Point(12, 117);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
             this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox5.Size = new System.Drawing.Size(425, 215);
             this.textBox5.TabIndex = 8;
