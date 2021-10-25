@@ -329,6 +329,12 @@
     <Content Include="Images\Laptop.jpg" />
     <Content Include="Images\MacPC.jpg" />
     <Content Include="Images\PC.jpeg" />
+    <None Include="Resources\Henri.jpg" />
+    <None Include="Resources\Feliks.jpg" />
+    <None Include="Resources\Emoji02.png" />
+    <None Include="Resources\Emoji01.png" />
+    <None Include="Resources\Emoji04.png" />
+    <None Include="Resources\Emoji03.png" />
     <None Include="Images\Printer.jpg" />
   </ItemGroup>
   <ItemGroup />
