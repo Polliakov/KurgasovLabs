@@ -294,6 +294,9 @@
     <EmbeddedResource Include="Lab3\VariableTest.resx">
       <DependentUpon>VariableTest.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab5\Pension.resx">
+      <DependentUpon>Pension.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
