@@ -315,6 +315,9 @@
     <EmbeddedResource Include="Lab5\Addition7.resx">
       <DependentUpon>Addition7.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab5\DepositPercent.resx">
+      <DependentUpon>DepositPercent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab5\Pension.resx">
       <DependentUpon>Pension.cs</DependentUpon>
     </EmbeddedResource>
