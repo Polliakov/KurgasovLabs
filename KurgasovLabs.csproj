@@ -253,6 +253,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="SelectorForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -301,19 +306,23 @@
     <EmbeddedResource Include="Lab4\UserValidation.resx">
       <DependentUpon>UserValidation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab5\Addition.resx">
+      <DependentUpon>Addition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab5\Addition11.resx">
+      <DependentUpon>Addition11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab5\Addition7.resx">
+      <DependentUpon>Addition7.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab5\Pension.resx">
       <DependentUpon>Pension.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="SelectorForm.resx">
       <DependentUpon>SelectorForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -342,12 +351,12 @@
     <Content Include="Images\Laptop.jpg" />
     <Content Include="Images\MacPC.jpg" />
     <Content Include="Images\PC.jpeg" />
-    <None Include="Resources\Henri.jpg" />
-    <None Include="Resources\Feliks.jpg" />
-    <None Include="Resources\Emoji02.png" />
-    <None Include="Resources\Emoji01.png" />
-    <None Include="Resources\Emoji04.png" />
-    <None Include="Resources\Emoji03.png" />
+    <None Include="Images\Henri.jpg" />
+    <None Include="Images\Feliks.jpg" />
+    <None Include="Images\Emoji02.png" />
+    <None Include="Images\Emoji01.png" />
+    <None Include="Images\Emoji04.png" />
+    <None Include="Images\Emoji03.png" />
     <None Include="Images\Printer.jpg" />
   </ItemGroup>
   <ItemGroup />

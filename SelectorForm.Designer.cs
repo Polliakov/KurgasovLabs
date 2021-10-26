@@ -482,7 +482,7 @@ namespace KurgasovLabs
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(184, 23);
             this.button33.TabIndex = 10;
-            this.button33.Text = "Addition_8";
+            this.button33.Text = "Addition_5";
             this.button33.UseVisualStyleBackColor = false;
             this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
