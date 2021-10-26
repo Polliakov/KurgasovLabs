@@ -318,6 +318,9 @@
     <EmbeddedResource Include="Lab5\DepositPercent.resx">
       <DependentUpon>DepositPercent.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab5\ForLoopIcons.resx">
+      <DependentUpon>ForLoopIcons.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab5\Pension.resx">
       <DependentUpon>Pension.cs</DependentUpon>
     </EmbeddedResource>
