@@ -15,39 +15,34 @@ namespace KurgasovLabs.Lab3
             double radius;
             double height;
 
-            while (true)
-            {
-                var inputBoxRadius = new Interaction.InputBox("Введите радиус цилиндра.");
-
-                if (inputBoxRadius.ShowDialog() != DialogResult.OK) return;
-
-                if (!double.TryParse(inputBoxRadius.Result, out radius))
-                {
-                    MessageBox.Show("Ошибка ввода!");
-                    continue;
-                }
-
-                break;
-            }
-
-            while (true)
-            {
-                var inputBoxHeight = new Interaction.InputBox("Введите высоту цилиндра.");
-
-                if (inputBoxHeight.ShowDialog() != DialogResult.OK) return;
-
-                if (!double.TryParse(inputBoxHeight.Result, out height))
-                {
-                    MessageBox.Show("Ошибка ввода!");
-                    continue;
-                }
-
-                break;
-            }
+            if (!GetInput("Введите радиус цилиндра.", out radius)) return;
+            if (!GetInput("Введите высоту цилиндра.", out height)) return;
 
             double volume = Math.PI * radius * radius * height;
 
-            MessageBox.Show("Объём цилиндра: " + volume);
+            MessageBox.Show("Объём цилиндра: " + Math.Abs(volume), "Результат");
+        }
+
+        private bool GetInput(string text, out double result)
+        {
+            while (true)
+            {
+                var inputBox = new Interaction.InputBox(text);
+
+                if (inputBox.ShowDialog() != DialogResult.OK)
+                {
+                    result = 0;
+                    return false;
+                }
+
+                if (!double.TryParse(inputBox.Result, out result))
+                {
+                    MessageBox.Show("Ошибка ввода!");
+                    continue;
+                }
+
+                return true;
+            }
         }
     }
 }
