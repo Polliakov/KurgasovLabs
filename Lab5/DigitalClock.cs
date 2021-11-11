@@ -12,9 +12,100 @@ namespace KurgasovLabs.Lab5
 {
     public partial class DigitalClock : Form
     {
+        int m, s, ms;
         public DigitalClock()
         {
             InitializeComponent();
+            timer1.Interval = 500;
+            m = 0;
+            s = 0;
+            ms = 0;
+            label1.Text = "00";
+            label2.Text = "00";
+            label3.Visible = true;
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            m = 0;
+            s = 0;
+            ms = 0;
+            label2.Text = "00";
+            label1.Text = "00";
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (label3.Visible)
+            {
+                if (s < 59)
+                {
+                    s++;
+                    if (s < 10)
+                        label2.Text = "0" + s.ToString();
+                    else
+                        label2.Text = s.ToString();
+                }
+                else
+                {
+                    if (m < 59)
+                    {
+                        m++;
+                        if (m < 10)
+                            label1.Text = "0" + m.ToString();
+                        else
+                            label1.Text = m.ToString();
+                        s = 0;
+                        label2.Text = "00";
+                    }
+                    else
+                    {
+                        m = 0;
+                        label1.Text = "00";
+                    }
+
+                }
+                label3.Visible = false;
+            }
+            else
+            {
+                label3.Visible = true;
+            }
+
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (timer1.Enabled)
+            {
+                timer1.Enabled = false;
+                button1.Text = "Пуск";
+                button2.Enabled = true;
+            }
+            else
+            {
+                timer1.Enabled = true;
+                button1.Text = "Стоп";
+                button2.Enabled = false;
+            }
+
         }
     }
 }
