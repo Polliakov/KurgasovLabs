@@ -11,17 +11,17 @@ namespace KurgasovLabs.Lab6
             InitializeComponent();
         }
 
-        private void dateToolStripMenuItem_Click(object sender, EventArgs e)
+        private void DateToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Label1.Text = DateTime.Now.ToString("yyy.MM.dd");
         }
 
-        private void времяToolStripMenuItem_Click(object sender, EventArgs e)
+        private void TimeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Label1.Text = DateTime.Now.ToString("HH.mm.dd");
         }
 
-        private void деньToolStripMenuItem_Click(object sender, EventArgs e)
+        private void DayToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Label1.Text = DateTime.Now.ToString("dd");
         }
