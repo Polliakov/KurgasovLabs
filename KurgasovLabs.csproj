@@ -312,6 +312,9 @@
     <EmbeddedResource Include="Lab6\MyMenuStrip.resx">
       <DependentUpon>MyMenuStrip.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab7\DebugTest.resx">
+      <DependentUpon>DebugTest.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
