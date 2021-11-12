@@ -130,11 +130,18 @@
     <Compile Include="Lab4\AccesModeChecker.Designer.cs">
       <DependentUpon>AccesModeChecker.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab4\UsingExample\Book.cs" />
     <Compile Include="Lab4\CaseGreeting.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Lab4\CaseGreeting.Designer.cs">
       <DependentUpon>CaseGreeting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab4\UsingExample\BookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab4\UsingExample\BookForm.Designer.cs">
+      <DependentUpon>BookForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Lab4\UserValidation.cs">
       <SubType>Form</SubType>
@@ -142,10 +149,10 @@
     <Compile Include="Lab4\UserValidation.Designer.cs">
       <DependentUpon>UserValidation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lab4\UsingExample1.cs">
+    <Compile Include="Lab4\UsingExample\UsingExample1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lab4\UsingExample1.Designer.cs">
+    <Compile Include="Lab4\UsingExample\UsingExample1.Designer.cs">
       <DependentUpon>UsingExample1.cs</DependentUpon>
     </Compile>
     <Compile Include="Lab5\Addition11.cs">
@@ -260,11 +267,20 @@
     <EmbeddedResource Include="Lab3\VariableTest.resx">
       <DependentUpon>VariableTest.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab4\AccesModeChecker.resx">
+      <DependentUpon>AccesModeChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab4\UsingExample\BookForm.resx">
+      <DependentUpon>BookForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab4\CaseGreeting.resx">
       <DependentUpon>CaseGreeting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab4\UserValidation.resx">
       <DependentUpon>UserValidation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab4\UsingExample\UsingExample1.resx">
+      <DependentUpon>UsingExample1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab5\Addition11.resx">
       <DependentUpon>Addition11.cs</DependentUpon>

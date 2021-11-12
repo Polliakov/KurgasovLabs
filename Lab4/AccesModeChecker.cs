@@ -16,5 +16,28 @@ namespace KurgasovLabs.Lab4
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "9583" ||
+                textBox1.Text == "1747")
+            {
+                textBox2.Text = "А, Б, В";
+            }
+            else if (textBox1.Text == "3331" ||
+                     textBox1.Text == "7922")
+            {
+                textBox2.Text = "Б, В";
+            }
+            else if (textBox1.Text == "9455" ||
+                     textBox1.Text == "8997")
+            {
+                textBox2.Text = "В";
+            }
+            else
+            {
+                textBox2.Text = "Неизвестный пароль";
+            }
+        }
     }
 }

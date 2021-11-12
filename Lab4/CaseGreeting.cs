@@ -22,6 +22,7 @@ namespace KurgasovLabs.Lab4
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             lblCountry.Text = lstCountryBox.Text;
+
             switch (lstCountryBox.SelectedIndex)
             {
                 case 0:
@@ -39,6 +40,13 @@ namespace KurgasovLabs.Lab4
                 case 4:
                     lblGreeting.Text = "Здравстуй, программист";
                     break;
+            }
+        }
+        private void lstCountryBox_MouseHover(object sender, EventArgs e)
+        {
+            if (lstCountryBox.SelectedIndex == -1)
+            {
+                lblGreeting.Text = "Пожалуйста выберите страну";
             }
         }
 
