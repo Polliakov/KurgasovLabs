@@ -92,16 +92,6 @@ namespace KurgasovLabs
             new UsingExample1().ShowDialog();
         }
 
-        private void button25_Click(object sender, EventArgs e)
-        {
-            new UsingExample7().ShowDialog();
-        }
-
-        private void button26_Click(object sender, EventArgs e)
-        {
-            new UsingExample().ShowDialog();
-        }
-
         private void button12_Click(object sender, EventArgs e)
         {
             new ForLoop().ShowDialog();
@@ -160,26 +150,6 @@ namespace KurgasovLabs
         private void button16_Click(object sender, EventArgs e)
         {
             new Lab5.Addition11().ShowDialog();
-        }
-
-        private void button17_Click(object sender, EventArgs e)
-        {
-            new Lab3.Addition7().ShowDialog();
-        }
-
-        private void button31_Click(object sender, EventArgs e)
-        {
-            new Lab3.Addition().ShowDialog();
-        }
-
-        private void button32_Click(object sender, EventArgs e)
-        {
-            new Lab5.Addition7().ShowDialog();
-        }
-
-        private void button33_Click(object sender, EventArgs e)
-        {
-            new Lab5.Addition().ShowDialog();
         }
     }
 }

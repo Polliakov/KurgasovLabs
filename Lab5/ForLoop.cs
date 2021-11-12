@@ -11,15 +11,12 @@ namespace KurgasovLabs.Lab5
             InitializeComponent();
         }
 
-        private async void button1_ClickAsync(object sender, EventArgs e)
+        private void button1_ClickAsync(object sender, EventArgs e)
         {
-            button1.Enabled = false;
             for (int i = 1; i <= 10; i++)
             {
                 richTextBox1.Text = richTextBox1.Text + "Строка " + i + Environment.NewLine;
-                await Task.Delay(100);
             }
-            button1.Enabled = true;
         }
     }
 }

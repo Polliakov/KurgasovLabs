@@ -20,23 +20,7 @@ namespace KurgasovLabs.Lab4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            String UserName,Pass;
-            UserName = Microsoft.VisualBasic.Interaction.InputBox("Введите ваше имя");
-            Pass = Microsoft.VisualBasic.Interaction.InputBox("Введите пароль");
-            if (UserName == "Генри" & Pass == "Цветок")
-            {
-                Microsoft.VisualBasic.Interaction.MsgBox("Добро пожаловать, Генри! Как поживаешь?");
-                pictureBox1.Image = KurgasovLabs.Properties.Resources.Henri;
-            }
-            else if (UserName == "Феликс" & Pass == "Листок")
-            {
-                Microsoft.VisualBasic.Interaction.MsgBox("Добро пожаловать, Феликс! Сыграем?");
-                pictureBox1.Image = KurgasovLabs.Properties.Resources.Feliks;
-            }
-            else
-            {
-                Microsoft.VisualBasic.Interaction.MsgBox("Извините, я вас не знаю.");
-            }
+            
         }
     }
 }

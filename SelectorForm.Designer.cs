@@ -35,8 +35,6 @@ namespace KurgasovLabs
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
@@ -48,16 +46,12 @@ namespace KurgasovLabs
             this.label2 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.button30 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
@@ -153,8 +147,6 @@ namespace KurgasovLabs
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.button31);
-            this.panel2.Controls.Add(this.button17);
             this.panel2.Controls.Add(this.button13);
             this.panel2.Controls.Add(this.button23);
             this.panel2.Controls.Add(this.button22);
@@ -172,34 +164,6 @@ namespace KurgasovLabs
             this.panel2.Size = new System.Drawing.Size(210, 326);
             this.panel2.TabIndex = 4;
             // 
-            // button31
-            // 
-            this.button31.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button31.BackColor = System.Drawing.SystemColors.Control;
-            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.Location = new System.Drawing.Point(139, 270);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(58, 23);
-            this.button31.TabIndex = 11;
-            this.button31.Text = "Add_8";
-            this.button31.UseVisualStyleBackColor = false;
-            this.button31.Click += new System.EventHandler(this.button31_Click);
-            // 
-            // button17
-            // 
-            this.button17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button17.BackColor = System.Drawing.SystemColors.Control;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Location = new System.Drawing.Point(76, 270);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(58, 23);
-            this.button17.TabIndex = 10;
-            this.button17.Text = "Add_7";
-            this.button17.UseVisualStyleBackColor = false;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
-            // 
             // button13
             // 
             this.button13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -208,9 +172,9 @@ namespace KurgasovLabs
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Location = new System.Drawing.Point(13, 270);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(58, 23);
+            this.button13.Size = new System.Drawing.Size(183, 23);
             this.button13.TabIndex = 9;
-            this.button13.Text = "Add_11";
+            this.button13.Text = "Addition_11";
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
@@ -341,8 +305,6 @@ namespace KurgasovLabs
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.button26);
-            this.panel3.Controls.Add(this.button25);
             this.panel3.Controls.Add(this.button24);
             this.panel3.Controls.Add(this.button7);
             this.panel3.Controls.Add(this.button8);
@@ -354,34 +316,6 @@ namespace KurgasovLabs
             this.panel3.Padding = new System.Windows.Forms.Padding(10);
             this.panel3.Size = new System.Drawing.Size(210, 326);
             this.panel3.TabIndex = 4;
-            // 
-            // button26
-            // 
-            this.button26.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button26.BackColor = System.Drawing.SystemColors.Control;
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Location = new System.Drawing.Point(13, 183);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(184, 23);
-            this.button26.TabIndex = 6;
-            this.button26.Text = "UsingExample_8";
-            this.button26.UseVisualStyleBackColor = false;
-            this.button26.Click += new System.EventHandler(this.button26_Click);
-            // 
-            // button25
-            // 
-            this.button25.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button25.BackColor = System.Drawing.SystemColors.Control;
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Location = new System.Drawing.Point(13, 154);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(184, 23);
-            this.button25.TabIndex = 5;
-            this.button25.Text = "UsingExample_7";
-            this.button25.UseVisualStyleBackColor = false;
-            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
             // button24
             // 
@@ -454,8 +388,6 @@ namespace KurgasovLabs
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.Controls.Add(this.button33);
-            this.panel4.Controls.Add(this.button32);
             this.panel4.Controls.Add(this.button16);
             this.panel4.Controls.Add(this.button30);
             this.panel4.Controls.Add(this.button29);
@@ -471,34 +403,6 @@ namespace KurgasovLabs
             this.panel4.Padding = new System.Windows.Forms.Padding(10);
             this.panel4.Size = new System.Drawing.Size(210, 326);
             this.panel4.TabIndex = 4;
-            // 
-            // button33
-            // 
-            this.button33.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button33.BackColor = System.Drawing.SystemColors.Control;
-            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button33.Location = new System.Drawing.Point(13, 299);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(184, 23);
-            this.button33.TabIndex = 10;
-            this.button33.Text = "Addition_5";
-            this.button33.UseVisualStyleBackColor = false;
-            this.button33.Click += new System.EventHandler(this.button33_Click);
-            // 
-            // button32
-            // 
-            this.button32.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button32.BackColor = System.Drawing.SystemColors.Control;
-            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button32.Location = new System.Drawing.Point(13, 270);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(184, 23);
-            this.button32.TabIndex = 9;
-            this.button32.Text = "Addition_7";
-            this.button32.UseVisualStyleBackColor = false;
-            this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
             // button16
             // 
@@ -772,8 +676,6 @@ namespace KurgasovLabs
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button30;
         private System.Windows.Forms.Button button29;
@@ -781,9 +683,5 @@ namespace KurgasovLabs
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button32;
     }
 }

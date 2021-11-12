@@ -33,7 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -65,23 +64,11 @@
     <Compile Include="Lab2\InputControls.Designer.cs">
       <DependentUpon>InputControls.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lab3\Addition.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Lab3\Addition.Designer.cs">
-      <DependentUpon>Addition.cs</DependentUpon>
-    </Compile>
     <Compile Include="Lab3\Addition11.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Lab3\Addition11.Designer.cs">
       <DependentUpon>Addition11.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Lab3\Addition7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Lab3\Addition7.Designer.cs">
-      <DependentUpon>Addition7.cs</DependentUpon>
     </Compile>
     <Compile Include="Lab3\BasicMath.cs">
       <SubType>Form</SubType>
@@ -155,41 +142,17 @@
     <Compile Include="Lab4\UserValidation.Designer.cs">
       <DependentUpon>UserValidation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lab4\UsingExample.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Lab4\UsingExample.Designer.cs">
-      <DependentUpon>UsingExample.cs</DependentUpon>
-    </Compile>
     <Compile Include="Lab4\UsingExample1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Lab4\UsingExample1.Designer.cs">
       <DependentUpon>UsingExample1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lab4\UsingExample7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Lab4\UsingExample7.Designer.cs">
-      <DependentUpon>UsingExample7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Lab5\Addition.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Lab5\Addition.Designer.cs">
-      <DependentUpon>Addition.cs</DependentUpon>
-    </Compile>
     <Compile Include="Lab5\Addition11.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Lab5\Addition11.Designer.cs">
       <DependentUpon>Addition11.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Lab5\Addition7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Lab5\Addition7.Designer.cs">
-      <DependentUpon>Addition7.cs</DependentUpon>
     </Compile>
     <Compile Include="Lab5\DepositPercent.cs">
       <SubType>Form</SubType>
@@ -273,9 +236,6 @@
     <EmbeddedResource Include="Lab2\InputControls.resx">
       <DependentUpon>InputControls.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lab3\Addition.resx">
-      <DependentUpon>Addition.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Lab3\BasicMath.resx">
       <DependentUpon>BasicMath.cs</DependentUpon>
     </EmbeddedResource>
@@ -306,14 +266,8 @@
     <EmbeddedResource Include="Lab4\UserValidation.resx">
       <DependentUpon>UserValidation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lab5\Addition.resx">
-      <DependentUpon>Addition.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Lab5\Addition11.resx">
       <DependentUpon>Addition11.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Lab5\Addition7.resx">
-      <DependentUpon>Addition7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab5\DepositPercent.resx">
       <DependentUpon>DepositPercent.cs</DependentUpon>
