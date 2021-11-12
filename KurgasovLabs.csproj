@@ -321,6 +321,9 @@
     <EmbeddedResource Include="Lab5\DigitalClock.resx">
       <DependentUpon>DigitalClock.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab5\ForLoop.resx">
+      <DependentUpon>ForLoop.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab5\ForLoopIcons.resx">
       <DependentUpon>ForLoopIcons.cs</DependentUpon>
     </EmbeddedResource>
