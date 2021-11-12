@@ -36,6 +36,7 @@ namespace KurgasovLabs.Lab5
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // timer1
@@ -71,6 +72,7 @@ namespace KurgasovLabs.Lab5
             this.label1.TabIndex = 7;
             this.label1.Text = "00";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -81,6 +83,7 @@ namespace KurgasovLabs.Lab5
             this.label2.TabIndex = 8;
             this.label2.Text = "00";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -91,12 +94,23 @@ namespace KurgasovLabs.Lab5
             this.label3.TabIndex = 9;
             this.label3.Text = ":";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(7, 157);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(344, 59);
+            this.label4.TabIndex = 10;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // DigitalClock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(235, 157);
+            this.ClientSize = new System.Drawing.Size(400, 225);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -116,5 +130,6 @@ namespace KurgasovLabs.Lab5
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }

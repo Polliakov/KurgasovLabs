@@ -7,7 +7,7 @@ namespace KurgasovLabs.Lab5
     {
         private int m;
         private int s;
-
+        
         public DigitalClock()
         {
             InitializeComponent();
@@ -17,6 +17,8 @@ namespace KurgasovLabs.Lab5
             s = 0;
             label1.Text = "00";
             label2.Text = "00";
+            label4.Text = DateTime.Now.ToString();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -67,6 +69,26 @@ namespace KurgasovLabs.Lab5
                 button1.Text = "Стоп";
                 button2.Enabled = false;
             }
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -330,6 +330,9 @@
     <EmbeddedResource Include="Lab5\Pension.resx">
       <DependentUpon>Pension.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab5\TimedPassword.resx">
+      <DependentUpon>TimedPassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab6\ClockMenuStrip.resx">
       <DependentUpon>ClockMenuStrip.cs</DependentUpon>
     </EmbeddedResource>
