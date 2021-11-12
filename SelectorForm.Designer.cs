@@ -469,7 +469,7 @@ namespace KurgasovLabs
             this.panel4.Margin = new System.Windows.Forms.Padding(5);
             this.panel4.Name = "panel4";
             this.panel4.Padding = new System.Windows.Forms.Padding(10);
-            this.panel4.Size = new System.Drawing.Size(210, 326);
+            this.panel4.Size = new System.Drawing.Size(210, 354);
             this.panel4.TabIndex = 4;
             // 
             // button33
@@ -580,7 +580,7 @@ namespace KurgasovLabs
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(184, 23);
             this.button10.TabIndex = 3;
-            this.button10.Text = "DigitalClock";
+            this.button10.Text = "Timer";
             this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
@@ -634,7 +634,7 @@ namespace KurgasovLabs
             this.panel5.Margin = new System.Windows.Forms.Padding(5);
             this.panel5.Name = "panel5";
             this.panel5.Padding = new System.Windows.Forms.Padding(10);
-            this.panel5.Size = new System.Drawing.Size(210, 326);
+            this.panel5.Size = new System.Drawing.Size(210, 354);
             this.panel5.TabIndex = 5;
             // 
             // button14
@@ -686,7 +686,7 @@ namespace KurgasovLabs
             this.panel6.Margin = new System.Windows.Forms.Padding(5);
             this.panel6.Name = "panel6";
             this.panel6.Padding = new System.Windows.Forms.Padding(10);
-            this.panel6.Size = new System.Drawing.Size(210, 326);
+            this.panel6.Size = new System.Drawing.Size(210, 354);
             this.panel6.TabIndex = 4;
             // 
             // label6
@@ -719,7 +719,7 @@ namespace KurgasovLabs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(666, 679);
+            this.ClientSize = new System.Drawing.Size(666, 713);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);

@@ -233,6 +233,12 @@
     <Compile Include="Lab5\TimedPassword.Designer.cs">
       <DependentUpon>TimedPassword.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab5\Timer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab5\Timer.Designer.cs">
+      <DependentUpon>Timer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab6\ClockMenuStrip.cs">
       <SubType>Form</SubType>
     </Compile>
