@@ -297,8 +297,14 @@
     <EmbeddedResource Include="Lab5\ForLoopIcons.resx">
       <DependentUpon>ForLoopIcons.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab5\ForLoopSummation.resx">
+      <DependentUpon>ForLoopSummation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab5\Pension.resx">
       <DependentUpon>Pension.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab5\TimedPassword.resx">
+      <DependentUpon>TimedPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab6\ClockMenuStrip.resx">
       <DependentUpon>ClockMenuStrip.cs</DependentUpon>
