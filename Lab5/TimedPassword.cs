@@ -12,72 +12,52 @@ namespace KurgasovLabs.Lab5
 {
     public partial class TimedPassword : Form
     {
-
-        private int m;
-        private int s;
+        public int i = 15;
 
         public TimedPassword()
         {
             InitializeComponent();
-
-            timer1.Interval = 500;
-            m = 0;
-            s = 0;
-            label1.Text = "00";
-            label2.Text = "00";
-            label4.Text = DateTime.Now.ToString();
-
+            textBox1.Text = "";
+            textBox1.PasswordChar = '*';
+            textBox1.MaxLength = 12;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void TimedPassword_Load(object sender, EventArgs e)
         {
-            m = 0;
-            s = 0;
-            label2.Text = "00";
-            label1.Text = "00";
-            label3.Visible = true;
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            if (label3.Visible)
-            {
-                label3.Visible = false;
-                return;
-            }
-
-            s++;
-            if (s == 60)
-            {
-                s = 0;
-                m++;
-                if (m == 60)
-                {
-                    m = 0;
-                    s = 0;
-                }
-                label1.Text = m.ToString("00");
-            }
-
-            label2.Text = s.ToString("00");
-            label3.Visible = true;
+            i = 15;
+            this.Text = i.ToString();
+            timer1.Interval = 1000;
+            timer1.Enabled = true;
+            timer1.Start();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (timer1.Enabled)
+            var password = "qwe123";
+            if(textBox1.Text == password)
             {
-                timer1.Enabled = false;
-                button1.Text = "Пуск";
-                button2.Enabled = true;
+                timer1.Stop();
+                MessageBox.Show("Вы ввели правильный пароль!");
             }
             else
             {
-                timer1.Enabled = true;
-                button1.Text = "Стоп";
-                button2.Enabled = false;
+                MessageBox.Show("Неправильный пароль, попробуйте ещё раз");
+                textBox1.Text = "";
             }
+        }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            this.Text = (--i).ToString();
+            if (i <= 0)
+            {
+                timer1.Stop();
+            }
+            if (i == 0)
+            {
+                MessageBox.Show("Время вышло");
+                Close();
+            }
         }
 
     }
