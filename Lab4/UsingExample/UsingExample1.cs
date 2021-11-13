@@ -14,7 +14,17 @@ namespace KurgasovLabs.Lab4
         }
 
         private List<Book> books = new List<Book>();
-        private decimal sellSum = 0; 
+        private decimal sellSum = 0;
+
+        private void lstBooks_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int selected = lstBooks.SelectedIndex;
+            if (selected == -1) return;
+
+            tbDescription.Text = books[selected].Description;
+            tbPrice.Text = books[selected].Price.ToString("F2");
+            tbCount.Text = books[selected].Count.ToString();
+        }
 
         private void BtnAdd_Click(object sender, EventArgs e)
         {
@@ -41,8 +51,7 @@ namespace KurgasovLabs.Lab4
         {
             if (lstBooks.SelectedIndex == -1) return;
 
-            books.RemoveAt(lstBooks.SelectedIndex);
-            lstBooks.Items.RemoveAt(lstBooks.SelectedIndex);         
+            Delete(lstBooks.SelectedIndex);         
         }
 
         private void btnSell_Click(object sender, EventArgs e)
@@ -50,9 +59,7 @@ namespace KurgasovLabs.Lab4
             int selected = lstBooks.SelectedIndex;
             if (selected == -1) return;
 
-            sellSum += books[selected].Sell();
-            tbSellSum.Text = sellSum.ToString("F2");
-            tbCount.Text = books[selected].Count.ToString();
+            Sell(selected);
         }
 
         private void Add(Book book)
@@ -69,14 +76,17 @@ namespace KurgasovLabs.Lab4
             lstBooks.SelectedIndex = index;
         }
 
-        private void lstBooks_SelectedIndexChanged(object sender, EventArgs e)
+        private void Delete(int index)
         {
-            int selected = lstBooks.SelectedIndex;
-            if (selected == -1) return;
+            books.RemoveAt(index);
+            lstBooks.Items.RemoveAt(index);
+        }
 
-            tbDescription.Text = books[selected].Description;
-            tbPrice.Text = books[selected].Price.ToString("F2");
-            tbCount.Text = books[selected].Count.ToString();
+        private void Sell(int index)
+        {
+            sellSum += books[index].Sell();
+            tbSellSum.Text = sellSum.ToString("F2");
+            tbCount.Text = books[index].Count.ToString();
         }
 
         private void UseTestValues(int count)
