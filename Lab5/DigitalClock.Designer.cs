@@ -105,6 +105,15 @@ namespace KurgasovLabs.Lab5
             this.label4.TabIndex = 10;
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(7, 142);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(344, 59);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "label4";
+            // 
             // DigitalClock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
