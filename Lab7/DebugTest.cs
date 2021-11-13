@@ -14,7 +14,7 @@ namespace KurgasovLabs.Lab7
         {
             int age;
             age = Convert.ToInt32(textBox1.Text);
-            if (age > 13 && age < 20)
+            if (age >= 13 && age < 20)
                 textBox2.Text = "Вы тинейджер";
             else
                 textBox2.Text = "Вы не тинейджер";
