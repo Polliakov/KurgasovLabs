@@ -306,6 +306,9 @@
     <EmbeddedResource Include="Lab3\VariableTest.resx">
       <DependentUpon>VariableTest.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab4\AccesModeChecker.resx">
+      <DependentUpon>AccesModeChecker.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab4\CaseGreeting.resx">
       <DependentUpon>CaseGreeting.cs</DependentUpon>
     </EmbeddedResource>
