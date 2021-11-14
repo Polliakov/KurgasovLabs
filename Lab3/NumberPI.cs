@@ -15,13 +15,14 @@ namespace KurgasovLabs.Lab3
             int iPi = Convert.ToInt32(Math.PI);
             double dPi = Math.PI;
             string sPi = Math.PI.ToString();
-            object objPi = Math.PI;
+            object objPi = 3.14;
 
             textBox1.Text = iPi.ToString();
             textBox2.Text = dPi.ToString();
             textBox3.Text = sPi;
             textBox4.Text = objPi.ToString();
         }
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
