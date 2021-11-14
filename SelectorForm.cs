@@ -99,7 +99,7 @@ namespace KurgasovLabs
 
         private void button26_Click(object sender, EventArgs e)
         {
-            new UsingExample().ShowDialog();
+            new UsingExample8().ShowDialog();
         }
 
         private void button12_Click(object sender, EventArgs e)

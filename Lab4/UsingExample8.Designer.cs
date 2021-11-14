@@ -1,7 +1,7 @@
 ﻿
 namespace KurgasovLabs.Lab4
 {
-    partial class UsingExample
+    partial class UsingExample8
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace KurgasovLabs.Lab4
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // UsingExample8
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(578, 259);
+            this.Name = "UsingExample8";
             this.Text = "UsingExample";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

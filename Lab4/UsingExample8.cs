@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace KurgasovLabs.Lab4
 {
-    public partial class UsingExample : Form
+    public partial class UsingExample8 : Form
     {
-        public UsingExample()
+        public UsingExample8()
         {
             InitializeComponent();
         }
