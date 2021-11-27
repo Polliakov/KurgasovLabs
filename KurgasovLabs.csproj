@@ -276,6 +276,9 @@
     <EmbeddedResource Include="Lab4\UserValidation.resx">
       <DependentUpon>UserValidation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab4\UsingExample7.resx">
+      <DependentUpon>UsingExample7.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab5\Addition7.resx">
       <DependentUpon>Addition7.cs</DependentUpon>
     </EmbeddedResource>
