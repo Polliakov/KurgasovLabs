@@ -264,10 +264,12 @@ namespace KurgasovLabs.Lab4
             this.button2.TabIndex = 15;
             this.button2.Text = "Готово";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.SeaShell;
+            this.textBox1.Enabled = false;
             this.textBox1.ForeColor = System.Drawing.Color.LightCoral;
             this.textBox1.Location = new System.Drawing.Point(18, 413);
             this.textBox1.Name = "textBox1";
@@ -297,6 +299,7 @@ namespace KurgasovLabs.Lab4
             this.button4.TabIndex = 18;
             this.button4.Text = "Отменить и \r\nвыйти";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // UsingExample7
             // 
