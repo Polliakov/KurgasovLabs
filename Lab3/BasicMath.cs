@@ -12,8 +12,11 @@ namespace KurgasovLabs.Lab3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (!double.TryParse(textBox1.Text, out double leftOperand) |
-                !double.TryParse(textBox2.Text, out double rightOperand))
+            double leftOperand;
+            double rightOperand;
+
+            if (!double.TryParse(textBox1.Text, out leftOperand) |
+                !double.TryParse(textBox2.Text, out rightOperand))
             {
                 MessageBox.Show("Ошибка ввода!");
             }

@@ -12,10 +12,15 @@ namespace KurgasovLabs.Lab5
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (!int.TryParse(textBox1.Text, out int startAge) |
-                !int.TryParse(textBox2.Text, out int endAge) |
-                !decimal.TryParse(textBox3.Text, out decimal contribution) |
-                !decimal.TryParse(textBox4.Text, out decimal rate))
+            int startAge;
+            int endAge;
+            decimal contribution;
+            decimal rate;
+
+            if (!int.TryParse(textBox1.Text, out startAge) |
+                !int.TryParse(textBox2.Text, out endAge) |
+                !decimal.TryParse(textBox3.Text, out contribution) |
+                !decimal.TryParse(textBox4.Text, out rate))
             {
                 MessageBox.Show("Ошибка ввода!");
                 return;

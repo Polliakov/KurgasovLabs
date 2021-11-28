@@ -36,13 +36,17 @@ namespace KurgasovLabs.Lab4
             {
                 tbDescription.Text = "Без описания";
             }
-            if (!decimal.TryParse(tbPrice.Text, out decimal price) || price < 0)
+
+            decimal price;
+            if (!decimal.TryParse(tbPrice.Text, out price) || price < 0)
             {
                 MessageBox.Show("Неверный формат поля \"цена\"", "Ошибка");
                 return;
             }
             price -= price % 0.01M;
-            if (!int.TryParse(tbCount.Text, out int count) || count < 0)
+
+            int count;
+            if (!int.TryParse(tbCount.Text, out count) || count < 0)
             {
                 MessageBox.Show("Неверный формат поля \"Количество\"", "Ошибка");
                 return;

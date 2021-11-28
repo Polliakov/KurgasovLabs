@@ -12,9 +12,13 @@ namespace KurgasovLabs.Lab5
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (!decimal.TryParse(textBox1.Text, out decimal summ) |
-                !int.TryParse(textBox2.Text, out int months) |
-                !decimal.TryParse(textBox3.Text, out decimal rate))
+            decimal summ;
+            decimal rate;
+            int months;
+
+            if (!decimal.TryParse(textBox1.Text, out summ) |
+                !int.TryParse(textBox2.Text, out months) |
+                !decimal.TryParse(textBox3.Text, out rate))
             {
                 MessageBox.Show("Некорректные данные!");
                 return;
