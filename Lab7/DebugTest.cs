@@ -16,6 +16,7 @@ namespace KurgasovLabs.Lab7
             {
                 MessageBox.Show("Не заполнено!");
                 Close();
+                return;
             }
            
             int Age;
