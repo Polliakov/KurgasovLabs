@@ -144,6 +144,12 @@
     <Compile Include="Lab4\CaseGreeting.Designer.cs">
       <DependentUpon>CaseGreeting.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab4\UserValidation\UserValidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab4\UserValidation\UserValidation.designer.cs">
+      <DependentUpon>UserValidation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab4\UsingExample7.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -276,6 +282,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lab4\CaseGreeting.resx">
       <DependentUpon>CaseGreeting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab4\UserValidation\UserValidation.resx">
+      <DependentUpon>UserValidation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab4\UsingExample7.resx">
       <DependentUpon>UsingExample7.cs</DependentUpon>
