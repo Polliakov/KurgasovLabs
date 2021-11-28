@@ -32,6 +32,8 @@ namespace KurgasovLabs.Lab4
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // listBox1
@@ -74,7 +76,7 @@ namespace KurgasovLabs.Lab4
             this.button2.BackColor = System.Drawing.Color.MediumPurple;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.Color.Lavender;
-            this.button2.Location = new System.Drawing.Point(91, 268);
+            this.button2.Location = new System.Drawing.Point(95, 362);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(101, 34);
             this.button2.TabIndex = 11;
@@ -82,11 +84,34 @@ namespace KurgasovLabs.Lab4
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.Lavender;
+            this.textBox2.ForeColor = System.Drawing.Color.MediumPurple;
+            this.textBox2.Location = new System.Drawing.Point(37, 268);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(222, 22);
+            this.textBox2.TabIndex = 12;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe Script", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.MediumPurple;
+            this.label3.Location = new System.Drawing.Point(23, 293);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(270, 66);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Пожалуйста, введите \r\nВаш отзыв!";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // AdditionTo7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(313, 316);
+            this.ClientSize = new System.Drawing.Size(318, 406);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.listBox1);
@@ -95,6 +120,8 @@ namespace KurgasovLabs.Lab4
             this.Controls.SetChildIndex(this.listBox1, 0);
             this.Controls.SetChildIndex(this.label2, 0);
             this.Controls.SetChildIndex(this.button2, 0);
+            this.Controls.SetChildIndex(this.textBox2, 0);
+            this.Controls.SetChildIndex(this.label3, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,5 +132,7 @@ namespace KurgasovLabs.Lab4
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label3;
     }
 }
