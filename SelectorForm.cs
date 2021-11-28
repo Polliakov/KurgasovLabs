@@ -74,7 +74,7 @@ namespace KurgasovLabs
 
         private void button9_Click(object sender, EventArgs e)
         {
-            new UserValidation().ShowDialog();
+            
         }
 
         private void button8_Click(object sender, EventArgs e)

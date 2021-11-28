@@ -83,5 +83,16 @@ namespace KurgasovLabs.Lab4
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var AddTo7 = new AdditionTo7();
+            AddTo7.ShowDialog();
+        }
     }
 }

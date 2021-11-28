@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualStudio.DebuggerVisualizers, Version=16.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -131,17 +132,17 @@
     <Compile Include="Lab4\AccesModeChecker.Designer.cs">
       <DependentUpon>AccesModeChecker.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab4\AdditionTo7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab4\AdditionTo7.Designer.cs">
+      <DependentUpon>AdditionTo7.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab4\CaseGreeting.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Lab4\CaseGreeting.Designer.cs">
       <DependentUpon>CaseGreeting.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Lab4\UserValidation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Lab4\UserValidation.Designer.cs">
-      <DependentUpon>UserValidation.cs</DependentUpon>
     </Compile>
     <Compile Include="Lab4\UsingExample7.cs">
       <SubType>Form</SubType>
@@ -270,11 +271,11 @@
     <EmbeddedResource Include="Lab4\AccesModeChecker.resx">
       <DependentUpon>AccesModeChecker.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab4\AdditionTo7.resx">
+      <DependentUpon>AdditionTo7.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab4\CaseGreeting.resx">
       <DependentUpon>CaseGreeting.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Lab4\UserValidation.resx">
-      <DependentUpon>UserValidation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab4\UsingExample7.resx">
       <DependentUpon>UsingExample7.cs</DependentUpon>

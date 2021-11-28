@@ -43,20 +43,20 @@ namespace KurgasovLabs.Lab4
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -178,7 +178,7 @@ namespace KurgasovLabs.Lab4
             this.button2.BackColor = System.Drawing.Color.SeaShell;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.Color.LightCoral;
-            this.button2.Location = new System.Drawing.Point(572, 300);
+            this.button2.Location = new System.Drawing.Point(495, 305);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(135, 36);
             this.button2.TabIndex = 15;
@@ -195,25 +195,27 @@ namespace KurgasovLabs.Lab4
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(321, 22);
             this.textBox1.TabIndex = 16;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.SeaShell;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.ForeColor = System.Drawing.Color.LightCoral;
-            this.button3.Location = new System.Drawing.Point(17, 441);
+            this.button3.Location = new System.Drawing.Point(495, 399);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(135, 36);
             this.button3.TabIndex = 17;
             this.button3.Text = "Согласен";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.SeaShell;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.ForeColor = System.Drawing.Color.LightCoral;
-            this.button4.Location = new System.Drawing.Point(18, 483);
+            this.button4.Location = new System.Drawing.Point(495, 453);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(135, 48);
             this.button4.TabIndex = 18;
@@ -234,27 +236,16 @@ namespace KurgasovLabs.Lab4
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             // 
-            // checkBox1
+            // checkBox4
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBox1.Location = new System.Drawing.Point(3, 14);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(246, 21);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Жульен с курицей и грибами";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBox2.Location = new System.Drawing.Point(3, 37);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(309, 21);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Тигровые креветки в манговом соусе";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBox4.Location = new System.Drawing.Point(3, 80);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(152, 21);
+            this.checkBox4.TabIndex = 3;
+            this.checkBox4.Text = "Сырное ассорти";
+            this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
@@ -267,16 +258,27 @@ namespace KurgasovLabs.Lab4
             this.checkBox3.Text = "Жареные креветки";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // checkBox2
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBox4.Location = new System.Drawing.Point(3, 80);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(152, 21);
-            this.checkBox4.TabIndex = 3;
-            this.checkBox4.Text = "Сырное ассорти";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBox2.Location = new System.Drawing.Point(3, 37);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(309, 21);
+            this.checkBox2.TabIndex = 1;
+            this.checkBox2.Text = "Тигровые креветки в манговом соусе";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBox1.Location = new System.Drawing.Point(3, 14);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(246, 21);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "Жульен с курицей и грибами";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // label9
             // 
@@ -336,6 +338,17 @@ namespace KurgasovLabs.Lab4
             this.groupBox2.TabIndex = 20;
             this.groupBox2.TabStop = false;
             // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBox9.Location = new System.Drawing.Point(6, 97);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(180, 21);
+            this.checkBox9.TabIndex = 4;
+            this.checkBox9.Text = "Молочный коктейль";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
@@ -380,17 +393,6 @@ namespace KurgasovLabs.Lab4
             this.checkBox8.Text = "Чай";
             this.checkBox8.UseVisualStyleBackColor = true;
             this.checkBox8.CheckedChanged += new System.EventHandler(this.checkBox8_CheckedChanged);
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkBox9.Location = new System.Drawing.Point(6, 97);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(180, 21);
-            this.checkBox9.TabIndex = 4;
-            this.checkBox9.Text = "Молочный коктейль";
-            this.checkBox9.UseVisualStyleBackColor = true;
             // 
             // label13
             // 
@@ -554,7 +556,7 @@ namespace KurgasovLabs.Lab4
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OldLace;
-            this.ClientSize = new System.Drawing.Size(719, 583);
+            this.ClientSize = new System.Drawing.Size(719, 521);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label20);
