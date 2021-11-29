@@ -16,7 +16,7 @@ namespace KurgasovLabs.Lab5
             {
                 pictureBox1.Image = (System.Drawing.Image)
                     Properties.Resources.ResourceManager.GetObject("Emoji0" + i);
-
+                //DialogResult
                 _ = i < 4 ? MessageBox.Show("Показать следующую рожицу!") : 
                             MessageBox.Show("Рожицы закончились :(");
             }

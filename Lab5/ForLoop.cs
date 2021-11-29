@@ -17,6 +17,7 @@ namespace KurgasovLabs.Lab5
             for (int i = 1; i <= 10; i++)
             {
                 richTextBox1.Text = richTextBox1.Text + "Строка " + i + Environment.NewLine;
+                //задержка в 100 мс
                 await Task.Delay(100);
             }
             button1.Enabled = true;
