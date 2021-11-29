@@ -32,7 +32,8 @@ namespace KurgasovLabs.Lab5
                 {
                     s += Math.Pow(2 * x, n) / Fcl(n);
                 }
-
+                //F / f - Формат дробных чисел с фиксированной точкой, указывает количество десятичных разрядов после запятой
+                
                 textBox1.Text += string.Format("{0,-7:F2}{1,-11:F4}{2,-11:F4}" +
                     Environment.NewLine,
                     x, y, s);
