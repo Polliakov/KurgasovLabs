@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace KurgasovLabs.Lab5
@@ -24,8 +17,6 @@ namespace KurgasovLabs.Lab5
 
         private void TimedPassword_Load(object sender, EventArgs e)
         {
-            i = 15;
-            this.Text = i.ToString();
             timer1.Interval = 1000;
             timer1.Enabled = true;
             timer1.Start();
