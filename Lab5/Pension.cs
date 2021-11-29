@@ -14,7 +14,9 @@ namespace KurgasovLabs.Lab5
         {
             if (!int.TryParse(textBox1.Text, out int startAge) |
                 !int.TryParse(textBox2.Text, out int endAge) |
+                //десятичное число - вклад
                 !decimal.TryParse(textBox3.Text, out decimal contribution) |
+                //ставка
                 !decimal.TryParse(textBox4.Text, out decimal rate))
             {
                 MessageBox.Show("Ошибка ввода!");
