@@ -41,7 +41,7 @@ namespace KurgasovLabs.Lab5
                 contributionSum += contribution;
                 depositSum = contributionSum * (1 + rate / 100);
                 decimal profit = depositSum - contributionSum;
-
+                // {порядковый номер, отступ}
                 textBox5.Text += string.Format("{0,-9}{1,-19}{2,-19}{3,-10}" + 
                     Environment.NewLine,
                     age, contributionSum, Math.Round(depositSum, 2), Math.Round(profit, 2));
