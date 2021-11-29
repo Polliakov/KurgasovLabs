@@ -83,7 +83,7 @@ namespace KurgasovLabs
             this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(17, 47);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(245, 28);
             this.button1.TabIndex = 0;
@@ -112,7 +112,7 @@ namespace KurgasovLabs
             this.button3.BackColor = System.Drawing.SystemColors.Control;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(17, 118);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(245, 28);
             this.button3.TabIndex = 3;
@@ -127,7 +127,7 @@ namespace KurgasovLabs
             this.button2.BackColor = System.Drawing.SystemColors.Control;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(17, 82);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(245, 28);
             this.button2.TabIndex = 2;
@@ -175,7 +175,7 @@ namespace KurgasovLabs
             this.button17.BackColor = System.Drawing.SystemColors.Control;
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.Location = new System.Drawing.Point(17, 332);
-            this.button17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button17.Margin = new System.Windows.Forms.Padding(4);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(246, 28);
             this.button17.TabIndex = 10;
@@ -190,7 +190,7 @@ namespace KurgasovLabs
             this.button23.BackColor = System.Drawing.SystemColors.Control;
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button23.Location = new System.Drawing.Point(17, 297);
-            this.button23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button23.Margin = new System.Windows.Forms.Padding(4);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(245, 28);
             this.button23.TabIndex = 8;
@@ -205,7 +205,7 @@ namespace KurgasovLabs
             this.button22.BackColor = System.Drawing.SystemColors.Control;
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button22.Location = new System.Drawing.Point(17, 261);
-            this.button22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button22.Margin = new System.Windows.Forms.Padding(4);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(245, 28);
             this.button22.TabIndex = 7;
@@ -220,7 +220,7 @@ namespace KurgasovLabs
             this.button21.BackColor = System.Drawing.SystemColors.Control;
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button21.Location = new System.Drawing.Point(17, 225);
-            this.button21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button21.Margin = new System.Windows.Forms.Padding(4);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(245, 28);
             this.button21.TabIndex = 6;
@@ -235,7 +235,7 @@ namespace KurgasovLabs
             this.button20.BackColor = System.Drawing.SystemColors.Control;
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.Location = new System.Drawing.Point(16, 190);
-            this.button20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button20.Margin = new System.Windows.Forms.Padding(4);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(245, 28);
             this.button20.TabIndex = 5;
@@ -250,7 +250,7 @@ namespace KurgasovLabs
             this.button19.BackColor = System.Drawing.SystemColors.Control;
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button19.Location = new System.Drawing.Point(17, 154);
-            this.button19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button19.Margin = new System.Windows.Forms.Padding(4);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(245, 28);
             this.button19.TabIndex = 4;
@@ -265,7 +265,7 @@ namespace KurgasovLabs
             this.button4.BackColor = System.Drawing.SystemColors.Control;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(17, 118);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(245, 28);
             this.button4.TabIndex = 3;
@@ -280,7 +280,7 @@ namespace KurgasovLabs
             this.button5.BackColor = System.Drawing.SystemColors.Control;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Location = new System.Drawing.Point(17, 82);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(245, 28);
             this.button5.TabIndex = 2;
@@ -308,7 +308,7 @@ namespace KurgasovLabs
             this.button6.BackColor = System.Drawing.SystemColors.Control;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Location = new System.Drawing.Point(17, 47);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(245, 28);
             this.button6.TabIndex = 0;
@@ -338,7 +338,7 @@ namespace KurgasovLabs
             this.button25.BackColor = System.Drawing.SystemColors.Control;
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button25.Location = new System.Drawing.Point(17, 154);
-            this.button25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button25.Margin = new System.Windows.Forms.Padding(4);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(245, 28);
             this.button25.TabIndex = 5;
@@ -353,7 +353,7 @@ namespace KurgasovLabs
             this.button7.BackColor = System.Drawing.SystemColors.Control;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Location = new System.Drawing.Point(17, 118);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button7.Margin = new System.Windows.Forms.Padding(4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(245, 28);
             this.button7.TabIndex = 3;
@@ -368,7 +368,7 @@ namespace KurgasovLabs
             this.button8.BackColor = System.Drawing.SystemColors.Control;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Location = new System.Drawing.Point(17, 82);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button8.Margin = new System.Windows.Forms.Padding(4);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(245, 28);
             this.button8.TabIndex = 2;
@@ -396,7 +396,7 @@ namespace KurgasovLabs
             this.button9.BackColor = System.Drawing.SystemColors.Control;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Location = new System.Drawing.Point(17, 47);
-            this.button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button9.Margin = new System.Windows.Forms.Padding(4);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(245, 28);
             this.button9.TabIndex = 0;
@@ -430,7 +430,7 @@ namespace KurgasovLabs
             this.button32.BackColor = System.Drawing.SystemColors.Control;
             this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button32.Location = new System.Drawing.Point(17, 297);
-            this.button32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button32.Margin = new System.Windows.Forms.Padding(4);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(245, 28);
             this.button32.TabIndex = 9;
@@ -445,7 +445,7 @@ namespace KurgasovLabs
             this.button30.BackColor = System.Drawing.SystemColors.Control;
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button30.Location = new System.Drawing.Point(17, 261);
-            this.button30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button30.Margin = new System.Windows.Forms.Padding(4);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(245, 28);
             this.button30.TabIndex = 7;
@@ -460,7 +460,7 @@ namespace KurgasovLabs
             this.button29.BackColor = System.Drawing.SystemColors.Control;
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button29.Location = new System.Drawing.Point(17, 225);
-            this.button29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button29.Margin = new System.Windows.Forms.Padding(4);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(245, 28);
             this.button29.TabIndex = 6;
@@ -475,7 +475,7 @@ namespace KurgasovLabs
             this.button28.BackColor = System.Drawing.SystemColors.Control;
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button28.Location = new System.Drawing.Point(17, 190);
-            this.button28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button28.Margin = new System.Windows.Forms.Padding(4);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(245, 28);
             this.button28.TabIndex = 5;
@@ -490,7 +490,7 @@ namespace KurgasovLabs
             this.button27.BackColor = System.Drawing.SystemColors.Control;
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button27.Location = new System.Drawing.Point(17, 154);
-            this.button27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button27.Margin = new System.Windows.Forms.Padding(4);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(245, 28);
             this.button27.TabIndex = 4;
@@ -505,11 +505,11 @@ namespace KurgasovLabs
             this.button10.BackColor = System.Drawing.SystemColors.Control;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Location = new System.Drawing.Point(17, 118);
-            this.button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button10.Margin = new System.Windows.Forms.Padding(4);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(245, 28);
             this.button10.TabIndex = 3;
-            this.button10.Text = "Timer";
+            this.button10.Text = "DigitalClock";
             this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
@@ -520,7 +520,7 @@ namespace KurgasovLabs
             this.button11.BackColor = System.Drawing.SystemColors.Control;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Location = new System.Drawing.Point(17, 82);
-            this.button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button11.Margin = new System.Windows.Forms.Padding(4);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(245, 28);
             this.button11.TabIndex = 2;
@@ -548,7 +548,7 @@ namespace KurgasovLabs
             this.button12.BackColor = System.Drawing.SystemColors.Control;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Location = new System.Drawing.Point(17, 47);
-            this.button12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button12.Margin = new System.Windows.Forms.Padding(4);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(245, 28);
             this.button12.TabIndex = 0;
@@ -576,7 +576,7 @@ namespace KurgasovLabs
             this.button14.BackColor = System.Drawing.SystemColors.Control;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Location = new System.Drawing.Point(17, 82);
-            this.button14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button14.Margin = new System.Windows.Forms.Padding(4);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(245, 28);
             this.button14.TabIndex = 2;
@@ -604,7 +604,7 @@ namespace KurgasovLabs
             this.button15.BackColor = System.Drawing.SystemColors.Control;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Location = new System.Drawing.Point(17, 47);
-            this.button15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button15.Margin = new System.Windows.Forms.Padding(4);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(245, 28);
             this.button15.TabIndex = 0;
@@ -644,7 +644,7 @@ namespace KurgasovLabs
             this.button18.BackColor = System.Drawing.SystemColors.Control;
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Location = new System.Drawing.Point(17, 47);
-            this.button18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button18.Margin = new System.Windows.Forms.Padding(4);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(245, 28);
             this.button18.TabIndex = 0;
@@ -663,7 +663,7 @@ namespace KurgasovLabs
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SelectorForm";
             this.Text = "NewButton";
             this.panel1.ResumeLayout(false);
