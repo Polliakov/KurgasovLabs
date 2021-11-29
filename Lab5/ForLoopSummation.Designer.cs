@@ -34,9 +34,10 @@ namespace KurgasovLabs.Lab5
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 44);
+            this.button1.Location = new System.Drawing.Point(25, 33);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(64, 27);
+            this.button1.Size = new System.Drawing.Size(85, 33);
             this.button1.TabIndex = 0;
             this.button1.Text = "Сумма";
             this.button1.UseVisualStyleBackColor = true;
@@ -44,10 +45,11 @@ namespace KurgasovLabs.Lab5
             // 
             // ForLoopSummation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(688, 352);
+            this.ClientSize = new System.Drawing.Size(148, 96);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ForLoopSummation";
             this.Text = "ForLoopSummation";
             this.ResumeLayout(false);
