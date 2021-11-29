@@ -43,9 +43,10 @@ namespace KurgasovLabs.Lab5
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(2, 81);
+            this.button1.Location = new System.Drawing.Point(37, 43);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 0;
             this.button1.Text = "Ввод";
             this.button1.UseVisualStyleBackColor = true;
@@ -53,19 +54,21 @@ namespace KurgasovLabs.Lab5
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(2, 55);
+            this.textBox1.Location = new System.Drawing.Point(22, 13);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
             this.textBox1.PasswordChar = '*';
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 1;
             // 
             // TimedPassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(211, 162);
+            this.ClientSize = new System.Drawing.Size(180, 95);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TimedPassword";
             this.Text = "TimedPassword";
             this.Load += new System.EventHandler(this.TimedPassword_Load);
