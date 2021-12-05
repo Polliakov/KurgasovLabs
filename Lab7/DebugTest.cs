@@ -12,12 +12,6 @@ namespace KurgasovLabs.Lab7
 
         private void button2_Click(object sender, EventArgs e)
         {
-           if (textBox2.Text == "")
-            {
-                MessageBox.Show("Не заполнено!");
-                Close();
-                return;
-            }
            
             int Age;
             Age = Convert.ToInt32(textBox1.Text);
