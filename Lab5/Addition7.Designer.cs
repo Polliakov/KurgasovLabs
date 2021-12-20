@@ -37,27 +37,30 @@ namespace KurgasovLabs.Lab5
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(15, 33);
+            this.textBox1.Location = new System.Drawing.Point(20, 41);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(205, 148);
+            this.textBox1.Size = new System.Drawing.Size(272, 181);
             this.textBox1.TabIndex = 8;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(16, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 13);
+            this.label1.Size = new System.Drawing.Size(148, 17);
             this.label1.TabIndex = 7;
             this.label1.Text = "a = 0.1; b = 1; n = 100";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(124, 4);
+            this.button1.Location = new System.Drawing.Point(165, 5);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(96, 23);
+            this.button1.Size = new System.Drawing.Size(128, 28);
             this.button1.TabIndex = 6;
             this.button1.Text = "Рассчитать";
             this.button1.UseVisualStyleBackColor = true;
@@ -65,12 +68,13 @@ namespace KurgasovLabs.Lab5
             // 
             // Addition7
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(233, 194);
+            this.ClientSize = new System.Drawing.Size(310, 241);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Addition7";
             this.Text = "Addition7";
             this.ResumeLayout(false);
